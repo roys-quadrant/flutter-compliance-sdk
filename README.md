@@ -1,4 +1,4 @@
-# compliance
+# flutter_compliance
 
 A new Flutter project.
 

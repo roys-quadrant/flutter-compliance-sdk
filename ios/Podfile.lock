@@ -1,0 +1,64 @@
+PODS:
+  - AMShimmer (1.0.6)
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.200)
+  - GzipSwift (5.1.1)
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.9.200):
+    - Logging (~> 1.1)
+  - Logging (1.4.0)
+  - netfox (1.20.0)
+  - PKHUD (5.3.0)
+  - QcmpSDK (1.0.0):
+    - AMShimmer
+    - PKHUD
+    - SwiftJWT
+  - SwiftJWT (3.6.200):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.2)
+    - LoggerAPI (~> 1.7)
+
+DEPENDENCIES:
+  - GzipSwift
+  - netfox
+  - QcmpSDK (from `/Volumes/Macintosh HD/Users/saminos/Desktop/QcmpSDK/XCFramework/xcframeworks`)
+
+SPEC REPOS:
+  trunk:
+    - AMShimmer
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - GzipSwift
+    - KituraContracts
+    - LoggerAPI
+    - Logging
+    - netfox
+    - PKHUD
+    - SwiftJWT
+
+EXTERNAL SOURCES:
+  QcmpSDK:
+    :path: "/Volumes/Macintosh HD/Users/saminos/Desktop/QcmpSDK/XCFramework/xcframeworks"
+
+SPEC CHECKSUMS:
+  AMShimmer: 681eeaaedf9fc4e390e95e9dd6fe59df947cfee0
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: dfeef51db96bcc4edec654956c1581adbda4e6a3
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
+  LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  netfox: 6b5c9724304b0cd99ca8515ac732a9f710e4ea5f
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  QcmpSDK: a9047e35a228b34f133e6292fe91a5220bff349d
+  SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
+
+PODFILE CHECKSUM: dff04dd24c23e7add4fa39af0f0ef6b0a12f6f27
+
+COCOAPODS: 1.11.2

@@ -1,18 +1,32 @@
-import 'dart:math';
-
 import 'package:flutter/services.dart';
 
 class QDCompliance {
   static const platform = MethodChannel('io.quadrant.compliance');
 
-  static void openConsentForm(int complianceType) async {
-    String result = await platform.invokeMethod("openConsentForm", {
-      "complianceType": complianceType
-    });
-
-    print(result);
+  static Future<T?> openConsentForm<T>(int complianceType) {
+    return platform
+        .invokeMethod<T>("openConsentForm", {"complianceType": complianceType});
   }
 
+  static Future<T?> openConsentFormIfNeeded<T>() async {
+    return platform.invokeMethod("openConsentFormIfNeeded");
+  }
+
+  static Future<T?> optOut<T>() async {
+    return platform.invokeMethod("optOut");
+  }
+
+  static Future<T?> doNotSell<T>() async {
+    return platform.invokeMethod("doNotSell");
+  }
+
+  static Future<T?> deleteMyData<T>() async {
+    return platform.invokeMethod("deleteMyData");
+  }
+
+  static Future<T?> requestMyData<T>() async {
+    return platform.invokeMethod("requestMyData");
+  }
 }
 
 class ComplianceRequestType {
