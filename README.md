@@ -15,7 +15,7 @@ Add maven on your *build.gradle (Project)*
 ```
 ## Add Consent Management SDK
 Now you can implement our SDK on your *build.gradle (App)*, you can add this snippet inside dependencies
-implementation 'io.quadrant.sdk.compliance:compliancesdk:1.0.20'
+implementation 'io.quadrant.sdk.compliance:compliancesdk:1.0.22'
 ## Apply Theme.AppCompact
 In case you not apply Theme.AppCompact yet, you need to implement that
 ### Styles.xml (light)
